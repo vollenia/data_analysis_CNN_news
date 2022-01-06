@@ -17,13 +17,13 @@ Having an initial objective impression of the data provides us not only with val
 Here we observe a degree of fluctuation in the number of publications. The yellow trend line is used to visualize this fluctuation further by performing polynomial regression on the data. Despite this fluctuation, we can observe a steady growth in productivity throughout the year as visualized by the green trend line utilizing linear regression. Inspecting this line, we can observe a substantial increase of 53.60% at the end of the year. When this analysis was originally performed using only data from January to November the prediction for the end of the year amounted to over 60%. The strong drop off in publications in December (especially in the second half of the month, which is presumably correlated with the holiday season) resulted in a downwards adjustment of the overall positive trend by around 10%.
 
 ### Weekly Perspective
-Viewing the reporting on news as a recurring "workweek" event throughout the year, it becomes of interest to inspect the contribution of individual weekdays to the overall picture.
+Viewing the reporting on news as a recurring "workweek" event throughout the year, it becomes of interest to inspect the contribution of individual weekdays to the overall picture. Therefore, we condense the information from the whole year into a one week representation.
 
 <p align="center">
   <img src="images/days.png" width="67%" />
 </p>
  
-We make the most notable observation when inspecting the regular workdays and the weekend. Monday through Friday display a slightly variating mean of around 10 to 11 and an identical median of 10. When moving to the weekend, we observe a significant decrease to a mean of 6 to 7 and a median of 7 for Saturday and 6 for Sunday as well as an overall decrease in publications. Additionally, we see an overall low occurrence of outliers which is, however, more present on the weekend.
+Here, we make the most notable observation when inspecting the regular workdays and the weekend. Monday through Friday display a slightly variating mean of around 10 to 11 and an identical median of 10. When moving to the weekend, we observe a significant decrease to a mean of 6 to 7 and a median of 7 for Saturday and 6 for Sunday as well as an overall decrease in publications. Additionally, we see an overall low occurrence of outliers which is, however, more present on the weekend.
 
 <p align="center">
   <img src="images/days_alt_total.png" width="67%" />
@@ -31,7 +31,7 @@ We make the most notable observation when inspecting the regular workdays and th
 
 Observing the weekly publications by total counts, we get a more precise picture of the decrease in publications towards the weekend. While the counts don't drop below the 500 mark during the regular work week, they remain between low to mid 300s on the weekend.  
 ### Authorship Distribution
-To get a sense of how these publications came to be, it is of interest to inspect their authorship. Given the large number of journalists working for CNN, we don't want to look at every single one individually but group them together. In this context it seems of particular interest to examine the spirit of collaboration in a journalistic environment. Therefore, we make the distinction between a single person worked on an article and a group of people contributing to its content. Additionally, articles which don't contain a reference and where the author is therefore unknown are also included.
+To get a sense of how these publications came to be, we need to inspect their authorship. Given the large number of journalists working for CNN, we don't want to look at every single one individually but group them together. In this context it seems of particular interest to examine the spirit of collaboration in a journalistic environment. Therefore, we make the distinction between a single person worked on an article and a group of people contributing to its content. Additionally, articles which don't contain a reference and where the author is therefore unknown are also included.
 
 <p align="center">
   <img src="images/authors.png" width="42%" />
