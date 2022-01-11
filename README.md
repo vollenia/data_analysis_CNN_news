@@ -1,7 +1,7 @@
 # data_analysis_CNN_news
 
 ## Summary
-The goal of this project is to analyze [previously collected data](https://github.com/vollenia/web_scraper-CNN_news) from the the CNN (Cable News Network) website for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves (although, it is very much possible and of intereset to be performed in the future) but on the meta information of these articles.
+The goal of this project is to analyze [previously collected data](https://github.com/vollenia/web_scraper-CNN_news) from the the CNN (Cable News Network) website for the year of 2021. The focus of this analysis lies not on the contents of the articles themselves (although, it is very much possible and of intereset to be performed in the future) but on the meta information of these articles. Since there is no specific problem that needs to be solved, the analysis is aimed at simply providing insights. In this case, the central idea is to see _what questions can be answered given the available data_.
 The analysis is performed in Python 3.8.10 and presented in a Jupyter notebook format. The virtual environment needed to run the notebook can be recreated by using the included _requirements.txt_.
 
 ## Insights
