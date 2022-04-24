@@ -37,7 +37,7 @@ To get a sense of how these publications came to be, we need to inspect their au
   <img src="images/authors.png" width="42%" />
 </p>
 
-Inspecting the chart, we observe a relationship of almost 2 to 1 in favor of individual work. At this point, jumping to the conclusion that CNN journalists are not particularly fond of each other would likely, on its own, make for some flashy headlines that would definitely find their target audience... A more subjective interpretation of these insights, however, is that, for most day-to-day news reports, one journalist is enough.
+Inspecting the chart, we observe a relationship of almost 2 to 1 in favor of individual work. At this point, jumping to the conclusion that CNN journalists are not particularly fond of each other would likely, on its own, make for some flashy headlines that would definitely find their target audience... A more objective interpretation of these insights, however, is that, for most day-to-day news reports, one journalist is enough.
 
 ### Monthly Close-Up
 While the analysis described so far focused on data collected over the whole year, we can also inspect each month individually.
